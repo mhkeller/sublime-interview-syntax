@@ -43,12 +43,6 @@ If you install Pandoc, you can also automatically convert your `.interview` file
 
 You can install pandoc from its [GitHub page](https://github.com/jgm/pandoc/releases/tag/1.13.2). Scroll all the way to the bottom to select your operating system. Or, if you have homebrew installed, you can run `brew install pandoc`.
 
-### Other formatting
-
-Here's an example of the other types of formatting you can use. 
-
-![](https://raw.githubusercontent.com/mhkeller/sublime-interview-syntax/master/assets/all-formatting.png?token=AAecOLkAVHNNpZZF90wIwmu79OojqJU2ks5VEhhXwA%3D%3D)
-
 ### Shortcuts
 
 The most useful shortcut is the `interview` + <kbd>Tab</kbd> snippet, which will prefill your page with the interview template pictured. 
@@ -72,3 +66,9 @@ Copy the `Interview` folder into your Sublime Text Packages directory and add th
 ## Contributing
 
 If you want to help that would be greatly appreciated! This is my first attempt at making a syntax definition and highlighter. It was moslty written in a plane on the way back from Nicar 15. Check the [issue tracker](https://github.com/mhkeller/sublime-interview-syntax/issues) for areas that could use some help.
+
+### Other formatting
+
+Here's an example of the other types of formatting you can use. 
+
+![](https://raw.githubusercontent.com/mhkeller/sublime-interview-syntax/master/assets/all-formatting.png?token=AAecOLkAVHNNpZZF90wIwmu79OojqJU2ks5VEhhXwA%3D%3D)
