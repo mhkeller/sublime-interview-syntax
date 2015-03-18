@@ -1,0 +1,44 @@
+		<dict> <!-- Begin Interview Syntax highlighting -->
+			<key>name</key>
+			<string>Interview On the Record</string>
+			<key>scope</key>
+			<string>markup.on-the-record</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#99cc99</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>Interview Background</string>
+			<key>scope</key>
+			<string>markup.on-background</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66cccc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Interview Off the Record</string>
+			<key>scope</key>
+			<string>markup.off-the-record</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f2777a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>List</string>
+			<key>scope</key>
+			<string>markup.list.unnumbered.interview, markup.list.numbered.interview</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f99157</string>
+			</dict>
+		</dict>	<!-- End Interview Syntax highlighting -->

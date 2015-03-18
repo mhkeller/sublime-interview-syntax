@@ -1,0 +1,5 @@
+{
+	"cmd": ["pandoc", "-s", "-S", "-o", "${file_name}.docx", "-f", "markdown", "-t", "docx", "${file_name}"],
+  "working_dir": "${project_path:${folder:${file_path}}}",
+  "selector": "text.html.interview"
+}

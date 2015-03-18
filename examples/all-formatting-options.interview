@@ -1,0 +1,53 @@
+# Heading
+
+## Sub-heading
+
+### Sub-sub-heading etc.
+
+// inline comment
+
+/* 
+
+Block 
+comment 
+
+*/
+
+Normal paragraph text.
+
+This part is *important*.
+
+This part is **very important**.
+
+#### List
+
+* a
+* b 
+* c
+
+#### Numbered list
+
+1. First
+2. Second 
+3. Third
+
+#### On the record
+
+`on
+
+This is a great idea.
+`
+
+#### On background
+
+`bg
+
+Some people don't think this is a good idea.
+`
+
+#### Off the record
+
+`off
+
+This is really a terrible idea.
+`
