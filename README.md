@@ -15,7 +15,7 @@ Here's an example:
 
 ## How to use it
 
-Save your files as `.interview` or `.vw` and Sublime should handle the rest. It also comes with a handy snippet that will give you an interview template by typing `interview` and then hitting the <kbd>Tab</kbd> key. It will give you a file that looks like the example below.
+Save your files as `.interview` or `.vw` and Sublime should handle the rest. It also comes with a handy snippet that will give you an interview template by typing `interview` and then hitting the <kbd>tab</kbd> key. It will give you a file that looks like the example below.
 
 ![](https://raw.githubusercontent.com/mhkeller/sublime-interview-syntax/master/assets/start-interview.gif?token=AAecODJHeR9Si23Jhpa2G8msH9d_Kssxks5VEhhawA%3D%3D)
 
@@ -39,13 +39,13 @@ This is off the record
 
 ### Export to Word document
 
-If you install Pandoc, you can also automatically convert your `.interview` files into Word documents by running <kbd>Shift</kbd> <kbd>cmd</kbd> + <kbd>b</kbd>. The output doesn't handle single line breaks super well so if you're exporting, you might want to add an extra line break between lines of text.
+If you install Pandoc, you can also automatically convert your `.interview` files into Word documents by running <kbd>shift</kbd> <kbd>cmd</kbd> + <kbd>b</kbd>. The output doesn't handle single line breaks super well so if you're exporting, you might want to add an extra line break between lines of text.
 
 You can install pandoc from its [GitHub page](https://github.com/jgm/pandoc/releases/tag/1.13.2). Scroll all the way to the bottom to select your operating system. Or, if you have homebrew installed, you can run `brew install pandoc`.
 
 ### Shortcuts
 
-The most useful shortcut is the `interview` + <kbd>Tab</kbd> snippet, which will prefill your page with the interview template pictured. 
+The most useful shortcut is the `interview` + <kbd>tab</kbd> snippet, which will prefill your page with the interview template pictured. 
 
 The other nice one is <kbd>cmd</kbd> + <kbd>?</kbd>, which will start a comment for you. This one is useful if you think of a question or note to yourself mid-interview — hit <kbd>cmd</kbd> + <kbd>?</kbd> and start typing.
 
