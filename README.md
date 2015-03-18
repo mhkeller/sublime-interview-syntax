@@ -1,11 +1,11 @@
 Interview Syntax
 ===
 
-A Sublime Text syntax definition and highlighter meant to help reporters as they conduct interviews.
+A Sublime Text 2 syntax definition and highlighter meant to help reporters as they conduct interviews.
 
 Using [Markdown](http://dillinger.io/) as a jumping off point, Interview highlights whether certain parts of the conversation are on the record, on background or off the record. 
 
-For now it just works with the [Spacegray Eighties](http://github.com/mhkeller/spacegray) Sublime theme but I am working on a version for Monokai.
+It looks best with the [Spacegray Eighties](http://github.com/mhkeller/spacegray) theme but it works with any of the [Spacegray family](http://github.com/mhkeller/spacegray). It will work in other color schemes but its aesthetics are not guaranteed. 
 
 ## What it looks like
 

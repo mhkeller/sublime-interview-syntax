@@ -35,7 +35,7 @@
 			<key>end</key>
 			<string>`</string>
 			<key>name</key>
-			<string>markup.on-the-record</string>
+			<string>constant.other.symbol markup.on-the-record</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -45,7 +45,7 @@
 			<key>end</key>
 			<string>`</string>
 			<key>name</key>
-			<string>markup.on-background</string>
+			<string>string.regexp markup.on-background</string>
 		</dict>		
 		<dict>
 			<key>begin</key>
@@ -55,7 +55,7 @@
 			<key>end</key>
 			<string>`</string>
 			<key>name</key>
-			<string>markup.off-the-record</string>
+			<string>entity.name.tag markup.deleted markup.off-the-record</string>
 		</dict>
 		<dict>
 			<key>begin</key>
