@@ -11,13 +11,13 @@ For now it just works with the [Spacegray Eighties](http://github.com/mhkeller/s
 
 Here's an example
 
-![](samle interview image tk)
+![](https://raw.githubusercontent.com/mhkeller/sublime-interview-syntax/master/assets/example-interview.png?token=AAecOOa9XqdmsGhLC9xLcUHp0V1tgMboks5VEhhYwA%3D%3D)
 
 ## How to use it
 
 Save your files as `.interview` or `.vw` and Sublime should handle the rest. It also comes with a handy snippet that will give you an interview template by typing `interview` and then hitting the tab key. It will give you a file that looks like the example below.
 
-![](interview template gif)
+![](https://raw.githubusercontent.com/mhkeller/sublime-interview-syntax/master/assets/start-interview.gif?token=AAecODJHeR9Si23Jhpa2G8msH9d_Kssxks5VEhhawA%3D%3D)
 
 ### Styling for on the record, on background or off the record
 
@@ -33,7 +33,7 @@ You can install pandoc from its [GitHub page](https://github.com/jgm/pandoc/rele
 
 Here's an example of the other types of formatting you can use. 
 
-![](all formatting tk)
+![](https://raw.githubusercontent.com/mhkeller/sublime-interview-syntax/master/assets/all-formatting.png?token=AAecOLkAVHNNpZZF90wIwmu79OojqJU2ks5VEhhXwA%3D%3D)
 
 ### Shortcuts
 
