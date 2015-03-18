@@ -9,7 +9,7 @@ For now it just works with the [Spacegray Eighties](http://github.com/mhkeller/s
 
 ## What it looks like
 
-Here's an example
+Here's an example:
 
 ![](https://raw.githubusercontent.com/mhkeller/sublime-interview-syntax/master/assets/example-interview.png?token=AAecOOa9XqdmsGhLC9xLcUHp0V1tgMboks5VEhhYwA%3D%3D)
 
