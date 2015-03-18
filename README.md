@@ -21,7 +21,21 @@ Save your files as `.interview` or `.vw` and Sublime should handle the rest. It 
 
 ### Styling for on the record, on background or off the record
 
-Generally, the interview has ground rule terms for how the person wants to be attributed. Interviews can get tricky, however, when the interviewee jumps back and forth. As shown in the screenshot above, you can highlight different regions by surrounding them with ``` marks and adding either the `on`, `bg` or `off` keywords.
+Generally, the interview has ground rule terms for how the person wants to be attributed. Interviews can get tricky, however, when the interviewee jumps back and forth. As shown in the screenshot above, you can highlight different regions by surrounding them with tick marks — \` — marks and adding either the `on`, `bg` or `off` keywords.
+
+````
+`on
+This is on the record
+`
+
+`bg
+This is on background
+`
+
+`off
+This is off the record
+`
+````
 
 ### Export to Word document
 
