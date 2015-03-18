@@ -49,7 +49,9 @@ The most useful shortcut is the `interview` + <kbd>Tab</kbd> snippet, which will
 
 The other nice one is <kbd>cmd</kbd> + <kbd>?</kbd>, which will start a comment for you. This one is useful if you think of a question or note to yourself mid-interview — hit <kbd>cmd</kbd> + <kbd>?</kbd> and start typing.
 
-If you want a block comment (a comment that spans mutliple lines) the shortcut is <kbd>option</kbd> <kbd>cmd</kbd> + <kbd>?</kbd>
+If you want a block comment (a comment that spans mutliple lines) the shortcut is <kbd>option</kbd> <kbd>cmd</kbd> + <kbd>?</kbd>.
+
+Turn on spell check in Sublime by pressing the <kbd>F6</kbd> key. On a Macbook you do this by holding down the <kbd>fn</kbd> key before pressing <kbd>F6</kbd>, otherwise it will just change the keyboard brightness.
 
 ## Installation
 
