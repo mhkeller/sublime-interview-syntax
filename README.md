@@ -63,7 +63,9 @@ Double-click `install.command` file.
 
 ### Manual installation 
 
-Copy the `Interview` folder into your Sublime Text Packages directory and add the contents of `base16-eighties.dark.additions.xml` as the last group the last `<array>` of your current syntax highlighter's `.tmTheme` file. For Space Gray Eighties, this is `~/Library/Application Support/Sublime Text 2/Packages/Theme - Spacegray/base16-eighties.dark.tmTheme`
+Copy the `Interview` folder into your Sublime Text Packages directory and add the contents of `base16-eighties.dark.additions.xml` as the last group the last `<array>` of your current syntax highlighter's `.tmTheme` file. For Space Gray Eighties, this is `~/Library/Application Support/Sublime Text 2/Packages/Theme - Spacegray/base16-eighties.dark.tmTheme`.
+
+**Note:** The `base16-eighties.dark.additions.xml` file defines specific colors to the scopes given to on/off/bg selectors. The Interview syntax definition also comes with more generic scopes such as `string.regexp` for information on background. This is to provide some fallback support for color schemes that we don't explicitly write a clunky installer like this one for. It's still advisable to add the custom additions to your `.tmTheme` file however because 1) it ensures that you'll get this nice green / blue / red distinction and it also turns lists from red to orange. That way, every style has a unique color and you won't be confused when your list appears red and you think that part of the discussion was off the record.
 
 ## Contributing
 
