@@ -61,7 +61,7 @@ Turn on spell check in Sublime by pressing the <kbd>F6</kbd> key. On a Macbook y
 
 ## Installation
 
-**You will need to restart Sublime for these changes to take effect.**
+You will need to restart Sublime for these changes to take effect.
 
 ### Automatic installation
 
