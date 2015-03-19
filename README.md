@@ -7,6 +7,12 @@ Using [Markdown](http://dillinger.io/) as a jumping off point, Interview highlig
 
 It looks best with the [Spacegray Eighties](http://github.com/mhkeller/spacegray) theme but it works with any of the [Spacegray family](http://github.com/mhkeller/spacegray). It will work in other color schemes but its aesthetics are not guaranteed. 
 
+## Who's it for
+
+If you already develop in Sublime Text, this can be a useful tool to give more structure and verifiability to interviews you conduct.
+
+If you're a reporter who doesn't program, it can perform the above but also be a useful starting point to familiarize yourself with a text editor.
+
 ## What it looks like
 
 Here's an example:
