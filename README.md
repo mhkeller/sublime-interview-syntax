@@ -65,7 +65,7 @@ Turn on spell check in Sublime by pressing the <kbd>F6</kbd> key. On a Macbook y
 
 ### Automatic installation
 
-Double-click `install.command` file. 
+[Download the .zip](https://github.com/mhkeller/sublime-interview-syntax.git) and double-click `install.command` file. 
 
 ### Manual installation 
 
