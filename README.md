@@ -53,7 +53,7 @@ You can install pandoc from its [GitHub page](https://github.com/jgm/pandoc/rele
 
 The most useful shortcut is the `interview` + <kbd>tab</kbd> snippet, which will prefill your page with the interview template pictured. 
 
-The other nice one is <kbd>cmd</kbd> + <kbd>?</kbd>, which will start a comment for you. This one is useful if you think of a question or note to yourself mid-interview — hit <kbd>cmd</kbd> + <kbd>?</kbd> and start typing.
+The other nice one is <kbd>cmd</kbd> + <kbd>?</kbd>, which will start a comment/question for you. This one is useful if you think of a question or note to yourself mid-interview — hit <kbd>cmd</kbd> + <kbd>?</kbd> and start typing.
 
 If you want a block comment (a comment that spans mutliple lines) the shortcut is <kbd>option</kbd> <kbd>cmd</kbd> + <kbd>?</kbd>.
 
