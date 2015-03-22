@@ -51,13 +51,21 @@ You can install pandoc from its [GitHub page](https://github.com/jgm/pandoc/rele
 
 ### Shortcuts
 
-The most useful shortcut is the `interview` + <kbd>tab</kbd> snippet, which will prefill your page with the interview template pictured. 
+###### Template - `interview` + <kbd>tab</kbd>
 
-The other nice one is <kbd>cmd</kbd> + <kbd>?</kbd>, which will start a comment/question for you. This one is useful if you think of a question or note to yourself mid-interview — hit <kbd>cmd</kbd> + <kbd>?</kbd> and start typing.
+This will prefill your page with the interview template pictured above.
 
-If you want a block comment (a comment that spans mutliple lines) the shortcut is <kbd>option</kbd> <kbd>cmd</kbd> + <kbd>?</kbd>.
+###### Questions — <kbd>cmd</kbd> + <kbd>?</kbd>
 
-Turn on spell check in Sublime by pressing the <kbd>F6</kbd> key. On a Macbook you do this by holding down the <kbd>fn</kbd> key before pressing <kbd>F6</kbd>, otherwise it will just change the keyboard brightness.
+This will start a question for you by writing out `// `. This is useful if you think of a question or note to yourself mid-interview. You can turn turn an existing line into a question with this shortcut as well.
+
+###### Block comments — <kbd>option</kbd> <kbd>cmd</kbd> + <kbd>?</kbd>
+
+This will start a block comment (a comment that spans mutliple lines) by writing out `/* */` and placing your cursor in the middle. Same as the question shortcut, you can highlight multiple lines and turn them into a comment block with this shortcut.
+
+###### Spell check — <kbd>F6</kbd>
+
+This is a general Sublime Text shortcut. On a Macbook, trigger this by holding down the <kbd>fn</kbd> key before pressing <kbd>F6</kbd>, otherwise it will just change the keyboard brightness.
 
 ## Installation
 
