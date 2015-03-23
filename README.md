@@ -73,7 +73,7 @@ This is a general Sublime Text shortcut. On a Macbook, trigger this by holding d
 
 ### Automatic installation
 
-[Download the .zip](https://github.com/mhkeller/sublime-interview-syntax.git) and double-click `install.command` file. 
+[Download the .zip](https://github.com/mhkeller/sublime-interview-syntax/archive/master.zip) and double-click `install.command` file. 
 
 ### Manual installation 
 
