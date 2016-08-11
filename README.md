@@ -1,7 +1,7 @@
 Interview Syntax
 ===
 
-A Sublime Text 2 syntax definition and highlighter meant to help reporters as they conduct interviews.
+A Sublime Text 2/3 syntax definition and highlighter meant to help reporters as they conduct interviews.
 
 Using [Markdown](http://dillinger.io/) as a jumping off point, Interview highlights whether certain parts of the conversation are on the record, on background or off the record. 
 
