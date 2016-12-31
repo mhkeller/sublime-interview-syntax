@@ -3,9 +3,11 @@ Interview Syntax
 
 A Sublime Text 2/3 syntax definition and highlighter meant to help reporters as they conduct interviews.
 
-Using [Markdown](http://dillinger.io/) as a jumping off point, Interview highlights whether certain parts of the conversation are on the record, on background or off the record. 
+Using [Markdown](http://dillinger.io/) as a jumping off point, Interview highlights whether certain parts of the conversation are on the record, on background or off the record.
 
-It looks best with the [Spacegray Eighties](http://github.com/mhkeller/spacegray) theme but it works with any of the [Spacegray family](http://github.com/mhkeller/spacegray). It will work in other color schemes but its aesthetics are not guaranteed. 
+It looks best with the [Spacegray Eighties](http://github.com/mhkeller/spacegray) theme. It will work in other color schemes as long as they have markdown styles but its aesthetics are not guaranteed.
+
+Sublime's default Monokai does not have markdown support but people have [some fixes](https://www.bram.us/2013/02/08/sublime-text-markdown-syntax-highlighting/)).
 
 ## Who's it for
 
@@ -27,7 +29,7 @@ Save your files as `.interview` or `.vw` and Sublime should handle the rest. It 
 
 ### Styling for on the record, on background or off the record
 
-Generally, the interview has ground rule terms for how the person wants to be attributed. Interviews can get tricky, however, when the interviewee jumps back and forth. As shown in the screenshot above, you can highlight different regions by surrounding them with tick marks ( \` ) and adding either the `on`, `bg` or `off` keywords. 
+Generally, the interview has ground rule terms for how the person wants to be attributed. Interviews can get tricky, however, when the interviewee jumps back and forth. As shown in the screenshot above, you can highlight different regions by surrounding them with tick marks ( \` ) and adding either the `on`, `bg` or `off` keywords.
 
 ````
 `on
@@ -65,21 +67,13 @@ This will start a block comment (a comment that spans mutliple lines) by writin
 
 ###### Spell check — <kbd>F6</kbd>
 
-This is a general Sublime Text shortcut. On a Macbook, trigger this by holding down the <kbd>fn</kbd> key before pressing <kbd>F6</kbd>, otherwise it will just change the keyboard brightness.
+This is a general Sublime Text shortcut and is enbaled by default for `interview` files. If it doesn't load, on a Macbook, trigger this by holding down the <kbd>fn</kbd> key before pressing <kbd>F6</kbd>, otherwise it will just change the keyboard brightness.
 
 ## Installation
 
-*You will need to restart Sublime for these changes to take effect.*
+Copy the files in the `Interview` folder into your Sublime Text user packages directory. Open this directory by going to the menu bar `Sublime Text > Preferences... > Browse Packages...` and then open the `User` foler.
 
-### Automatic installation
-
-[Download the .zip](https://github.com/mhkeller/sublime-interview-syntax/archive/master.zip) and double-click `install.command` file. 
-
-### Manual installation 
-
-Copy the `Interview` folder into your Sublime Text Packages directory and add the contents of `base16-eighties.dark.additions.xml` as the last group the last `<array>` of your current syntax highlighter's `.tmTheme` file. For Space Gray Eighties, this is `~/Library/Application Support/Sublime Text 2/Packages/Theme - Spacegray/base16-eighties.dark.tmTheme`.
-
-**Note:** The `base16-eighties.dark.additions.xml` file defines specific colors to the scopes given to on/off/bg selectors. The Interview syntax definition also comes with more generic scopes such as `string.regexp` for information on background. This is to provide some fallback support for color schemes that we don't explicitly write a clunky installer like this one for. It's still advisable to add the custom additions to your `.tmTheme` file however because 1) it ensures that you'll get this nice green / blue / red distinction and it also turns lists from red to orange. That way, every style has a unique color and you won't be confused when your list appears red and you think that part of the discussion was off the record.
+**Note:** The Interview syntax definition also comes with more generic scopes such as `string.regexp` for information on background. This is to provide some fallback support for color schemes that don't explicitly support markdown. If things aren't looking right, add the contents of `base16-eighties.dark.additions.xml` as the last element before `</array>` in your color scheme `.tmTheme` file. Change the hex codes to match your color scheme.
 
 ## Contributing
 
@@ -87,6 +81,6 @@ If you want to help that would be greatly appreciated! This is my first attempt 
 
 ### Other formatting
 
-Here's an example of the other types of formatting you can use. 
+Here's an example of the other types of formatting you can use.
 
 ![](https://raw.githubusercontent.com/mhkeller/sublime-interview-syntax/master/assets/all-formatting.png?token=AAecOLkAVHNNpZZF90wIwmu79OojqJU2ks5VEhhXwA%3D%3D)

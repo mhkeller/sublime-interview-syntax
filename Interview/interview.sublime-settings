@@ -1,0 +1,9 @@
+{
+  "word_wrap": true,
+  "spell_check": true,
+  "extensions":
+  [
+    "interview",
+    "vw"
+  ]
+}

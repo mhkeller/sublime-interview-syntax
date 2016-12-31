@@ -5,15 +5,28 @@
 ### Sub-sub-heading etc.
 
 // inline comment
+ // inline comment
+   // inline comment
+    // inline comment
 
-/* 
+/*
 
-Block 
-comment 
+Block
+comment
 
 */
 
-Normal paragraph text.
+
+Normal paragraph // text.
+ /* comment */
+ f
+/* comment */
+
+http://www.google.com
+
+hellod
+
+/* comment */
 
 This part is *important*.
 
@@ -22,13 +35,13 @@ This part is **very important**.
 #### List
 
 * a
-* b 
+* b
 * c
 
 #### Numbered list
 
 1. First
-2. Second 
+2. Second
 3. Third
 
 #### On the record

@@ -8,9 +8,9 @@ Groundrules (unless otherwise noted): On the record
 Referred by: Marty McFly <marty@biffco.com>
 ---
 
-/* QUESTIONS */
 
 // Tell me about the night you invented time travel
+    // Tell me about the night you invented time travel
 
 I was in my bathroom repairing a simple light bulb when I slipped and hit my head against the sink. There, in my mind, I saw the key to time travel, the flux capacitor.
 
@@ -18,7 +18,7 @@ I was in my bathroom repairing a simple light bulb when I slipped and hit my hea
 
 I've never told anyone this. Can we go off the record?
 
-`off 
+`off
 I cried. I broke down and I cried.
 `
 
