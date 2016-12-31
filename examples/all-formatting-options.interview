@@ -4,27 +4,12 @@
 
 ### Sub-sub-heading etc.
 
-// inline comment
- // inline comment
-   // inline comment
-    // inline comment
-
 /*
 
 Block
 comment
 
 */
-
-
-Normal paragraph // text.
- /* comment */
- f
-/* comment */
-
-http://www.google.com
-
-hellod
 
 /* comment */
 
@@ -51,6 +36,8 @@ This part is **very important**.
 This is a great idea.
 `
 
+`on inline`
+
 #### On background
 
 `bg
@@ -58,9 +45,13 @@ This is a great idea.
 Some people don't think this is a good idea.
 `
 
+`bg inline`
+
 #### Off the record
 
 `off
 
 This is really a terrible idea.
 `
+
+`off inline`
